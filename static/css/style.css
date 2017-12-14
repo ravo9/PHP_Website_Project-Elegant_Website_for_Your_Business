@@ -14,6 +14,17 @@ body
 	text-align: center;
 }
 
+.links_no_decoration
+{
+	text-decoration:none;
+	color: #000000;
+}
+
+.links_no_decoration:hover {
+    text-decoration:none;
+	color: #000000;
+}
+
 #benefits, #examples
 {
 	padding: 40px 0;

@@ -30,14 +30,14 @@
 	        <div class="col-md-8">
 						    <fieldset class="form-group">
 							    <legend class="mb-3">1. What kind of website do you need?</legend>
-								    <label for="kind">
+								    <label for="type">
 								    <strong>Static Website</strong> displays media, images, text, information and may contain many sub-pages with a proper navigation.
 								    <div style="height: 18px"></div>
 								    <strong>Dynamic Website</strong> is much more interactive. This type may contain elements like login system, user registration, online Ordering and Booking Systems connected to internal or external database. 
 								    </label>
                                     <div style="height: 12px"></div>
-								    <input type="radio" name="kind" class="mb-3 mr-1" id="static_choice" value="static" Onchange="toggle_dynamic_elements()">Static <span class="badge badge-success badge-pill ml-2">£49.99</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£99.99</span></br>
-								    <input type="radio" name="kind" class="mb-3 mr-1" id="dynamic_choice" value="dynamic" Onchange="toggle_dynamic_elements()">Dynamic <span class="badge badge-success badge-pill ml-2">£49.99 - £149.99*</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£149.99 - £299.99*</span></br>
+								    <input type="radio" name="type" class="mb-3 mr-1" id="static_choice" value="static" Onchange="toggle_dynamic_elements()">Static <span class="badge badge-success badge-pill ml-2">£49.99</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£99.99</span></br>
+								    <input type="radio" name="type" class="mb-3 mr-1" id="dynamic_choice" value="dynamic" Onchange="toggle_dynamic_elements()">Dynamic <span class="badge badge-success badge-pill ml-2">£49.99 - £149.99*</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£149.99 - £299.99*</span></br>
 								    <div style="margin-left: 30px;">*Depends on project complexity - we will specify the price by e-mail.</div>
 							        <div style="height: 20px;"></div>
 						    </fieldset>

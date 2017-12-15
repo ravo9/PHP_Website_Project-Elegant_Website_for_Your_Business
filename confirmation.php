@@ -1,15 +1,20 @@
 <?php
 
-	$date = $desc = $spec = "";
+	$date = $type = $desc = $spec = "";
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	  $desc = $_POST["desc"];
-	  $spec = $_POST["spec"];
+		$date = date("Y-m-d h:i:sa");
+	    $desc = $_POST["desc"];
+	    $spec = $_POST["spec"];
+		if (isset($_POST["type"]) && $_POST["type"] == "static")
+			 $type = "static";
+		else if (isset($_POST["type"]) && $_POST["type"] == "dynamic")
+			 $type = "dynamic";
 	}
 	
 	$to      = 'rafalozog@gmail.com';
 	$subject = 'Elegant-Websites Order';
-	$message = 'hello';
+	$message = "Elegant Websites - New Order \r\n" . $date;
 	$headers = 'From: elegantwebsitesforyou@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 

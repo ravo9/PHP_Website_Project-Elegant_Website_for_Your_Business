@@ -9,8 +9,8 @@
 	<meta name="description" content="Creation of elegant and useful websites, which increase business value, attract customers, make an enterprise open and attainable." />
 	<meta name="keywords" content="websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
 	
-	<link href="../static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
@@ -28,7 +28,7 @@
 		<div class="container">
 		<div class="row">
 				<div class="col-md-4 text-center">
-					<img class="img-thumbnail" src="../static/img/c2.jpg">
+					<img class="img-thumbnail" src="img/c2.jpg">
 				</div>
 				<div class="col-md-8">
 					Do you have a small or medium-size business? We would like to prepare a neat, intuitive and good-looking website for you! 
@@ -64,11 +64,11 @@
 					3. If you like the final effect, we will publish the website for you!
 					<br/><br/>
 					<div class="text-center">
-						<a class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; border-radius: 8px;" href="/order">Start the Process Now</a>
+						<a class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; border-radius: 8px;" href="order.php">Start the Process Now</a>
 					</div>
 				</div>
 				<div class="col-md-4 text-center">
-					<img class="img-thumbnail" src="../static/img/c4.jpg">
+					<img class="img-thumbnail" src="img/c4.jpg">
 				</div>
 			</div>
 		</div>
@@ -82,13 +82,13 @@
 					<br/><br/>
 					<div class="row">
 						<div class="col-md-4">
-							<img class="img-thumbnail" src="../static/img/L1.png">
+							<img class="img-thumbnail" src="img/L1.png">
 						</div>
 						<div class="col-md-4">
-							<img class="img-thumbnail" src="../static/img/L2.png">
+							<img class="img-thumbnail" src="img/L2.png">
 						</div>
 						<div class="col-md-4">
-							<img class="img-thumbnail" src="../static/img/L3.png">
+							<img class="img-thumbnail" src="img/L3.png">
 						</div>
 					</div>
 				</div>

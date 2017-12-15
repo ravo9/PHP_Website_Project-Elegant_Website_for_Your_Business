@@ -9,8 +9,8 @@
 	<meta name="description" content="Creation of elegant and useful websites, which increase business value, attract customers, make an enterprise open and attainable." />
 	<meta name="keywords" content="websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
 	
-	<link href="../static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
@@ -25,7 +25,7 @@
 	</div>
     <div id="benefits">
 	    <div class="container">
-        <form action="" name="form" method="post">
+        <form action="confirmation.php" name="form" method="post">
 	    <div class="row">
 	        <div class="col-md-8">
 						    <fieldset class="form-group">
@@ -80,12 +80,12 @@
            
                 </div>
             <div class="col-md-4 text-center">
-					    <img class="img-thumbnail" src="../static/img/c1.jpg">
+					    <img class="img-thumbnail" src="img/c1.jpg">
 		    </div>			
         </div>
         <div class="row mt-2">
                 <div class="col-md-4 text-center">
-                        <img class="img-thumbnail" src="../static/img/c3.jpg">
+                        <img class="img-thumbnail" src="img/c3.jpg">
 				    </div>
                 <div class="col-md-8">
                             <fieldset class="form-group">

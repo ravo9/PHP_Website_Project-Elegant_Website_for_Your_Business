@@ -1,3 +1,22 @@
+<?php
+
+	$date = $desc = $spec = "";
+
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	  $desc = $_POST["desc"];
+	  $spec = $_POST["spec"];
+	}
+	
+	$to      = 'rafalozog@gmail.com';
+	$subject = 'Elegant-Websites Order';
+	$message = 'hello';
+	$headers = 'From: elegantwebsitesforyou@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+	mail($to, $subject, $message, $headers);
+
+?>
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -9,8 +28,8 @@
 	<meta name="description" content="Creation of elegant and useful websites, which increase business value, attract customers, make an enterprise open and attainable." />
 	<meta name="keywords" content="websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
 	
-	<link href="../static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
@@ -28,14 +47,14 @@
 		<div class="container">
 		<div class="row">
                 <div class="col-md-4 text-center">
-					<img class="img-thumbnail" src="../static/img/c5.jpg">
+					<img class="img-thumbnail" src="img/c5.jpg">
 				</div>
 				<div class="col-md-8">
 				
 					Thank you for your order! We will contact you soon to confirm the details.<br/>
                     After it, we will prepare <strong>a free website project</strong> for you.<br/>
                     If you will accept the project and its total price, we will implement it for you!<br/>
-					<a href="/" class="btn btn-success mt-4" style="width: 280px; height: 35px; padding-top: 7px; margin-left: 160px; border-radius: 8px;" />Done</a>
+					<a href="index.php" class="btn btn-success mt-4" style="width: 280px; height: 35px; padding-top: 7px; margin-left: 160px; border-radius: 8px;" />Done</a>
 				</div>
 			</div>
 		</div>

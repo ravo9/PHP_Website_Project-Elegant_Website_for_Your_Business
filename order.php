@@ -7,7 +7,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="description" content="Creation of elegant and useful websites, which increase business value, attract customers, make an enterprise open and attainable." />
-	<meta name="keywords" content="websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
+	<meta name="keywords" content="elegant-website, elegant-websites, websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -80,13 +80,20 @@
            
                 </div>
             <div class="col-md-4 text-center">
-					    <img class="img-thumbnail" src="img/c1.jpg">
+			    <img class="img-thumbnail" src="img/c1.jpg">					
 		    </div>			
         </div>
         <div class="row mt-2">
                 <div class="col-md-4 text-center">
-                        <img class="img-thumbnail" src="img/c3.jpg">
-				    </div>
+                     <img class="img-thumbnail" src="img/c3.jpg">
+					<div style="height: 30px;"></div>
+					<div class="btn btn-warning" style="position: relative; top: 15px; left: 780px; width: 260px; padding-top: 15px; padding-bottom: 15px; line-height: 1.5; border-radius: 10px;">
+						Any questions?<br/>
+						Contact us:<br/>
+						07497173091<br/>
+						<span style="font-size: 0.8rem;">elegantwebsitesforyou@gmail.com</span>
+					</div>
+				</div>
                 <div class="col-md-8">
                             <fieldset class="form-group">
 							    <legend class="mb-3">4. What about the hosting?</legend>
@@ -100,7 +107,7 @@
                             <fieldset class="form-group">
 							    <legend class="mb-4">5. Please leave us a contact to you:</legend>
                                 <input class="d-block mb-4" style="margin-left:24px;" type="textarea" name="name" placeholder="First and last name">
-                                <input class="d-block mb-4" style="margin-left:24px;" type="textarea" name="email" placeholder="E-mail address">
+								<input class="d-block mb-4" style="margin-left:24px;" type="textarea" name="email" placeholder="E-mail address">
                                 <input class="d-block mb-3" style="margin-left:24px;" type="textarea" name="phone" placeholder="Phone number">
 							    <div style="height: 10px;"></div>
 						    </fieldset>

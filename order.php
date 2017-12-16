@@ -36,21 +36,21 @@
 								    <strong>Dynamic Website</strong> is much more interactive. This type may contain elements like login system, user registration, online Ordering and Booking Systems connected to internal or external database. 
 								    </label>
                                     <div style="height: 12px"></div>
-								    <input type="radio" name="type" class="mb-3 mr-1" id="static_choice" value="static" Onchange="toggle_dynamic_elements()">Static <span class="badge badge-success badge-pill ml-2">£49.99</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£99.99</span></br>
-								    <input type="radio" name="type" class="mb-3 mr-1" id="dynamic_choice" value="dynamic" Onchange="toggle_dynamic_elements()">Dynamic <span class="badge badge-success badge-pill ml-2">£49.99 - £149.99*</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£149.99 - £299.99*</span></br>
+								    <input type="radio" name="website_type" class="mb-3 mr-1" id="static_choice" value="static" Onchange="toggle_dynamic_elements()">Static <span class="badge badge-success badge-pill ml-2">£49.99</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£99.99</span></br>
+								    <input type="radio" name="website_type" class="mb-3 mr-1" id="dynamic_choice" value="dynamic" Onchange="toggle_dynamic_elements()">Dynamic <span class="badge badge-success badge-pill ml-2">£49.99 - £149.99*</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£149.99 - £299.99*</span></br>
 								    <div style="margin-left: 30px;">*Depends on project complexity - we will specify the price by e-mail.</div>
 							        <div style="height: 20px;"></div>
 						    </fieldset>
 						
                             <fieldset id="dynamic_elements" style="display: none; margin-top: -10px;">
 							    <legend class="mb-3">Please select dynamic elements, which you would like to add:</legend>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="order_system_simple" />Simple Ordering System (orders may be sent by e-mail)</br>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="booking_system_simple" />Simple Booking System (booking requests may be sent by e-mail)</br>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="login_system" />User System (login and registration)</br>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="database" />Database</br>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="search_engine" />Internal Search Engine</br>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="order_system_adv" />Advanced Ordering System (related to users and database)</br>
-							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements" value="booking_system_adv" />Advanced Booking System (related to users and database)</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="order_system_simple" />Simple Ordering System (orders may be sent by e-mail)</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="booking_system_simple" />Simple Booking System (booking requests may be sent by e-mail)</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="login_system" />User System (login and registration)</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="database" />Database</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="search_engine" />Internal Search Engine</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="order_system_adv" />Advanced Ordering System (related to users and database)</br>
+							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="booking_system_adv" />Advanced Booking System (related to users and database)</br>
                                 <div class="ml-4 mb-2 mr-1">
                                 Other (please specify): <input class="form-control mt-2" type="text" name="other_dynamic_elements" />
                                 </div>

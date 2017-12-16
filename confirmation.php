@@ -1,20 +1,43 @@
 <?php
 
-	$date = $type = $desc = $spec = "";
+	$date = $desc = $spec = $website_type = $dynamic_elements = $other_dynamic_elements = $hosting_option = $name = $email = $phone = "";
 
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$date = date("Y-m-d h:i:sa");
-	    $desc = $_POST["desc"];
-	    $spec = $_POST["spec"];
-		if (isset($_POST["type"]) && $_POST["type"] == "static")
-			 $type = "static";
-		else if (isset($_POST["type"]) && $_POST["type"] == "dynamic")
-			 $type = "dynamic";
-	}
+	$date = date("Y/m/d h:i");
+	$desc = $_POST["desc"];
+	$spec = $_POST["spec"];
+	if (isset($_POST["website_type"]))
+		$website_type = $_POST["website_type"];
+	foreach($_POST['elements'] as $element)
+		$dynamic_elements .= ($element . ", ");
+	$other_dynamic_elements = $_POST["other_dynamic_elements"];
+	if (isset($_POST["hosting_option"]))
+		$hosting_option = $_POST["hosting_option"];
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$phone = $_POST["phone"];
+	
+	#if ($_SERVER["REQUEST_METHOD"] == "POST") 
 	
 	$to      = 'rafalozog@gmail.com';
 	$subject = 'Elegant-Websites Order';
-	$message = "Elegant Websites - New Order \r\n" . $date;
+	$message = "Elegant Websites - New Order \r\n\n" 
+		. $date . "\n\n"
+		. "Website description: \n"
+		. "		" . $desc . "\n\n"
+		. "Website type: \n"
+		. "		" . $website_type . "\n\n"
+		. "Desired dynamic elements: \n"
+		. "		" . $dynamic_elements
+		. "		" . $other_dynamic_elements . "\n\n"
+		. "Hosting option: \n"
+		. "		" . $hosting_option . "\n\n"
+		. "Technical specification: \n"
+		. "		" . $spec . "\n\n"
+		. "Customer's details: " . "\n"
+		. "		" . $name . "\n"
+		. "		" . $email . "\n"
+		. "		" . $phone . "\n"
+		;
 	$headers = 'From: elegantwebsitesforyou@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 

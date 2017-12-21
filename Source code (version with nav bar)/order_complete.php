@@ -68,7 +68,16 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="/" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		
+		<div id="nav_bar">
+			<ul>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="order.php" style="color: grey;">Order</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
+		</div>
 	</div>
 	
 	<div id="benefits">
@@ -78,10 +87,10 @@
 					<img class="img-thumbnail" src="img/c5.jpg">
 				</div>
 				<div class="col-md-8">
-				
-					Thank you for your order! We will contact you soon to confirm the details.<br/>
-                    After it, we will prepare <strong>a free website project</strong> for you.<br/>
-                    If you will accept the project and its total price, we will implement it for you!<br/>
+					<div style="height: 30px;"></div>
+					Thank you for your order! I will contact you soon to confirm the details.<br/>
+                    Later, <strong>the free website project</strong> will be prepared for you.<br/>
+                    If you will accept the project and its total price, I will implement it!<br/>
 					<a href="index.php" class="btn btn-success mt-4" style="width: 280px; height: 35px; padding-top: 7px; margin-left: 160px; border-radius: 8px;" />Done</a>
 				</div>
 			</div>

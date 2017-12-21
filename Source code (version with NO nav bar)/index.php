@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant Website for Your Business</title>
+	<title>Elegant and cheap websites for business</title>
 	
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -31,9 +31,9 @@
 					<img class="img-thumbnail" src="img/c2.jpg">
 				</div>
 				<div class="col-md-8">
-					Do you have a small or medium-size business? We would like to prepare a neat, intuitive and good-looking website for you! 
+					Do you have a small or medium-size business? My name is Rafal and I would like to offer you a neat, intuitive and good-looking website for your business! 
 					<br/><br/>
-					You don't have to be worried about design and technical issues. We will prepare a project, implement fully-working website and publish it for you.
+					You don't have to be worried about design and technical issues. I will prepare a project, implement fully-working website and publish it for you.
 					<br/><br/>
 					What could your enterprise gain?
 					<ul>
@@ -55,16 +55,16 @@
 					<br/><br/>
 					1. Specify what design and functional features you expect. 
 					<br/>
-					Don't be worried if you don't have any idea - we'll prepare the layout project for you <br/><strong> free of charge</strong>.
+					Don't be worried if you don't have any idea - I'll prepare the layout project for you <br/><strong> free of charge</strong>.
 					<br/>
 					Simply - if you don't like it - you don't pay anything!
 					<br/><br/>
-					2. If you like the project, we will implement the fully-working website, customized for your purposes!
+					2. If you like the project, I will implement the fully-working website, customized for your purposes!
 					<br/><br/>
-					3. If you like the final effect, we will publish the website for you!
+					3. If you like the final effect, the website will be published!
 					<br/><br/>
 					<div class="text-center">
-						<a class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; border-radius: 8px;" href="order.php">Start the Process Now</a>
+						<a class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; border-radius: 8px;" href="order_elegant_website.php">Start the Process Now</a>
 					</div>
 				</div>
 				<div class="col-md-4 text-center">

@@ -8,10 +8,41 @@ body
 
 #logo
 {
-	padding: 80px 0;
+	padding-top: 80px;
 	font-family: 'Poiret One';
 	font-size: 4rem;
 	text-align: center;
+}
+
+#nav_bar
+{
+	padding-top: 40px;
+	padding-right: 40px;
+	list-style-type: none;
+	text-align: center;
+}
+
+#nav_bar li
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+#nav_bar a
+{
+	width: 200px;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 2rem;
+	text-decoration: none;
+	color: black;
+}
+
+#nav_bar a:hover
+{
+	color: black;
+	text-decoration: none;
 }
 
 .links_no_decoration
@@ -23,6 +54,12 @@ body
 .links_no_decoration:hover {
     text-decoration:none;
 	color: #000000;
+}
+
+.footer-reversed-colors
+{
+	background-color: #6C6C6C;
+	color: #FFF;
 }
 
 #benefits, #examples
@@ -80,4 +117,3 @@ body
 	text-align: center;
 	font-size: 0.95rem;
 }
-

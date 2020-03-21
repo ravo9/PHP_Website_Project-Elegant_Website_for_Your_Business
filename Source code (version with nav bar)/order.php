@@ -3,26 +3,26 @@
 <head>
 
 	<title>Elegant Website for Your Business</title>
-	
+
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="description" content="Creation of elegant and useful websites, which increase business value, attract customers, make an enterprise open and attainable." />
 	<meta name="keywords" content="elegant-website, elegant-websites, websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
-	
+
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	
+
 </head>
 
 <body>
 
 	<div id="logo" class="container">
 		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
-		
+
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
@@ -32,7 +32,7 @@
 			</ul>
 		</div>
 	</div>
-	
+
     <div id="benefits">
 	    <div class="container">
         <form action="order_complete.php" name="form" method="post">
@@ -43,7 +43,7 @@
 								    <label for="type">
 								    <strong>Static Website</strong> displays media, images, text, information and may contain many sub-pages with a proper navigation.
 								    <div style="height: 18px"></div>
-								    <strong>Dynamic Website</strong> is much more interactive. This type may contain elements like login system, user registration, online Ordering and Booking Systems connected to internal or external database. 
+								    <strong>Dynamic Website</strong> is much more interactive. This type may contain elements like login system, user registration, online Ordering and Booking Systems connected to internal or external database.
 								    </label>
                                     <div style="height: 12px"></div>
 								    <input type="radio" name="website_type" class="mb-3 mr-1" id="static_choice" value="static" Onchange="toggle_dynamic_elements()">Static <span class="badge badge-success badge-pill ml-2">£49.99</span> <span class="badge badge-danger badge-pill ml-2" style="text-decoration: line-through">£99.99</span></br>
@@ -51,7 +51,7 @@
 								    <div style="margin-left: 30px;">*Depends on project complexity - the price will be specified by e-mail.</div>
 							        <div style="height: 20px;"></div>
 						    </fieldset>
-						
+
                             <fieldset id="dynamic_elements" style="display: none; margin-top: -10px;">
 							    <legend class="mb-3">Please select dynamic elements, which you would like to add:</legend>
 							    <input type="checkbox" class="ml-4 mb-2 mr-1" name="elements[]" value="order_system_simple" />Simple Ordering System (orders may be sent by e-mail)</br>
@@ -87,11 +87,11 @@
                                            If you don't have your own idea - <strong>don't be worried</strong>. I will prepare the best-fitting website's project we can for you!
 							    <div style="height: 23px;"></div>
 						    </fieldset>
-           
+
                 </div>
             <div class="col-md-4 text-center">
-			    <img class="img-thumbnail" src="img/c1.jpg">					
-		    </div>			
+			    <img class="img-thumbnail" src="img/c1.jpg">
+		    </div>
         </div>
         <div class="row mt-2">
                 <div class="col-md-4 text-center">
@@ -108,7 +108,7 @@
                             <fieldset class="form-group">
 							    <legend class="mb-3">4. What about the hosting?</legend>
 							    I will prepare the website, but you will also need a <strong>hosting</strong> (server) and <strong>domain</strong> (address) to place it on the Internet. If you would like, I can find the best offer for you and <strong>after you will accept it</strong> - publish the website.<br/><br/>
-                                <input type="radio" name="hosting_option" value="yes"><strong>Yes</strong>, please find the best hosting and domain for my website (both prices will be added to receipt <strong>after you will accept</strong>) presented offer*.<br/>  
+                                <input type="radio" name="hosting_option" value="yes"><strong>Yes</strong>, please find the best hosting and domain for my website (both prices will be added to receipt <strong>after you will accept</strong>) presented offer*.<br/>
                                 *Usually <span class="badge badge-warning badge-pill">around £20 per year</span> for domain without ads and additional words in address.<br/><br/>
                                 <input type="radio" name="hosting_option" value="no"><strong>No</strong>, I just want to order website.<br/>
 							    <div style="height: 22px;"></div>
@@ -121,7 +121,7 @@
                                 <input class="d-block mb-3" style="margin-left:24px;" type="textarea" name="phone" placeholder="Phone number">
 							    <div style="height: 10px;"></div>
 						    </fieldset>
-						
+
                             <fieldset>
 						    <input type="submit" name="submit" class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; padding-bottom: 7px; border-radius: 8px;" value="Order" />
 						    </fieldset>
@@ -130,13 +130,13 @@
             </form>
 	    </div>
     </div>
-	
+
 	<div id="footer">
 		<div class="container">
-			All rights reserved 2017 &copy Elegant Website for Your Business - Rafal Ozog Web Development, Edinburgh
+			All rights reserved 2020 &copy Elegant Websites for Your Business - Rafal Ozog Web Development, London
 		</div>
 	</div>
-	
+
 </body>
 
 <script>
@@ -149,7 +149,7 @@
     } else {
         x.style.display = "none";
       }
-    } 
+    }
 
 </script>
 </html>

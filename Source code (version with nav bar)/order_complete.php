@@ -15,12 +15,12 @@
 	$name = $_POST["name"];
 	$email = $_POST["email"];
 	$phone = $_POST["phone"];
-	
-	#if ($_SERVER["REQUEST_METHOD"] == "POST") 
-	
+
+	#if ($_SERVER["REQUEST_METHOD"] == "POST")
+
 	$to      = 'rafalozog@gmail.com';
 	$subject = 'Elegant-Websites Order';
-	$message = "Elegant Websites - New Order \r\n\n" 
+	$message = "Elegant Websites - New Order \r\n\n"
 		. $date . "\n\n"
 		. "Website description: \n"
 		. "		" . $desc . "\n\n"
@@ -50,26 +50,26 @@
 <head>
 
 	<title>Elegant Website for Your Business</title>
-	
+
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="description" content="Creation of elegant and useful websites, which increase business value, attract customers, make an enterprise open and attainable." />
 	<meta name="keywords" content="elegant-website, elegant-websites, websites, website, elegant, web-development, creation, rafal, ozog, business, customers, enterprise, attainable" />
-	
+
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	
+
 </head>
 
 <body>
 
 	<div id="logo" class="container">
 		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
-		
+
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
@@ -79,7 +79,7 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<div id="benefits">
 		<div class="container">
 		<div class="row">
@@ -96,13 +96,13 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div id="footer">
 		<div class="container">
-			All rights reserved 2017 &copy Elegant Website for Your Business - Rafal Ozog Web Development, Edinburgh
+			All rights reserved 2020 &copy Elegant Websites for Your Business - Rafal Ozog Web Development, London
 		</div>
 	</div>
-	
+
 </body>
 
 <script>
@@ -116,7 +116,7 @@
     } else {
         x.style.display = "none";
       }
-    } 
+    }
 
 </script>
 </html>

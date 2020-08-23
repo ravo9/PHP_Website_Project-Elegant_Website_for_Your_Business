@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant Website for Your Business</title>
+	<title>Elegant Websites for Your Business</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -21,13 +21,13 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Websites for Your Business</a>
 
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php" style="color: grey;">About</a></li>
-				<li><a href="order.php">Order</a></li>
+				<li><a href="order.php">Enquiry</a></li>
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
@@ -37,17 +37,27 @@
 		<div class="container">
 		<div class="row">
 				<div class="col-md-8">
-					Hello! My name is Rafal Ozog. Currently I am third-year student of Computing Science, living in Edinburgh.
+					Hello! My name is Rafal Ozog. I am a software developer, living in London, currently working on Android apps.
 					<br/><br/>
-					At the beginning I would like to mention that I try to treat web development as a kind of art. I know it actually lies far away from painting or music, however they’ve got something in common. I can see this in layout design - choosing colours, trying to fit fonts or spacing between different elements, trying to make the website clear, intuitive and pretty-looking - all of these activities allow me to involve my own intuition, feelings and heart into this work.
+					Besides the mobile world, I have a passion for design, and making the world more accessible for people, through web development.
 					<br/><br/>
-					I would like to use my skills, enthusiasm and time to create something what could serve you.
+					I’m trying to look at web development as a kind of art. I know it actually lies far away from painting or music, however they’ve got something in common.
+					I can see this in layout design - choosing colours, trying to fit fonts or spacing between different elements, trying to make the website clear, intuitive and pretty-looking -
+					all of these activities allow me to involve my own intuition, feelings and heart into this work.
 					<br/><br/>
-					Please check my offer, if you've got a few seconds ;)
+					I would love to use my skills, enthusiasm and time to create something that could serve you, and other people.
+					<br/><br/>
+					If you like, please follow me on LinkedIn, Google Play, or GitHub!
 					<br/><br/>
 					Thank you for your visit!
 					<br/><br/>
 					Rafal
+					<br/><br/>
+					<div class="text-center d-flex justify-content-around">
+						<a class="btn btn-primary" style="width: 200px; height: 35px; padding-top: 7px; border-radius: 8px;" target="_blank" href="https://www.linkedin.com/in/rafal-ozog">LinkedIn</a>
+						<a class="btn btn-success" style="width: 200px; height: 35px; padding-top: 7px; border-radius: 8px;" target="_blank" href="https://play.google.com/store/apps/developer?id=Dreamcatcher+Mobile+Apps">Google Play</a>
+						<a class="btn btn-secondary" style="width: 200px; height: 35px; padding-top: 7px; border-radius: 8px;" target="_blank" href="https://github.com/ravo9">GitHub</a>
+					</div>
 					<br/>
 				</div>
                 <div class="col-md-4 text-center">

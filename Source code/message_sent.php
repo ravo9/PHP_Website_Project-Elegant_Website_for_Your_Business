@@ -9,7 +9,7 @@
 
 	#if ($_SERVER["REQUEST_METHOD"] == "POST")
 
-	$to      = 'rafalozog@gmail.com';
+	$to      = 'elegantwebsitesforyou@gmail.com';
 	$subject = 'Elegant-Websites Message';
 	$message = "Elegant Websites - New Message \r\n\n"
 		. $date . "\n\n"
@@ -30,7 +30,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant Website for Your Business</title>
+	<title>Elegant Websites for Your Business</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -49,13 +49,13 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Websites for Your Business</a>
 
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About</a></li>
-				<li><a href="order.php">Order</a></li>
+				<li><a href="order.php">Enquiry</a></li>
 				<li><a href="contact.php" style="color: grey;">Contact</a></li>
 			</ul>
 		</div>

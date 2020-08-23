@@ -1,38 +1,35 @@
 <?php
 
-	$date = $desc = $spec = $website_type = $dynamic_elements = $other_dynamic_elements = $hosting_option = $name = $email = $phone = "";
+	$date = $purpose = $form = $style = $functionality =  $existing = $name = $email = $phone = "";
 
 	$date = date("Y/m/d h:i");
-	$desc = $_POST["desc"];
-	$spec = $_POST["spec"];
-	if (isset($_POST["website_type"]))
-		$website_type = $_POST["website_type"];
-	foreach($_POST['elements'] as $element)
-		$dynamic_elements .= ($element . ", ");
-	$other_dynamic_elements = $_POST["other_dynamic_elements"];
-	if (isset($_POST["hosting_option"]))
-		$hosting_option = $_POST["hosting_option"];
+	$purpose = $_POST["purpose"];
+	$form = $_POST["form"];
+	$style = $_POST["style"];
+	$functionality = $_POST["functionality"];
+	$existing = $_POST["existing"];
+	/*if (isset($_POST["website_type"]))
+		$website_type = $_POST["website_type"];*/
 	$name = $_POST["name"];
 	$email = $_POST["email"];
 	$phone = $_POST["phone"];
 
 	#if ($_SERVER["REQUEST_METHOD"] == "POST")
 
-	$to      = 'rafalozog@gmail.com';
+	$to      = 'elegantwebsitesforyou@gmail.com';
 	$subject = 'Elegant-Websites Order';
 	$message = "Elegant Websites - New Order \r\n\n"
 		. $date . "\n\n"
-		. "Website description: \n"
-		. "		" . $desc . "\n\n"
-		. "Website type: \n"
-		. "		" . $website_type . "\n\n"
-		. "Desired dynamic elements: \n"
-		. "		" . $dynamic_elements
-		. "		" . $other_dynamic_elements . "\n\n"
-		. "Hosting option: \n"
-		. "		" . $hosting_option . "\n\n"
-		. "Technical specification: \n"
-		. "		" . $spec . "\n\n"
+		. "Website purpose: \n"
+		. "		" . $purpose . "\n\n"
+		. "Website form: \n"
+		. "		" . $form . "\n\n"
+		. "Website style: \n"
+		. "		" . $style . "\n\n"
+		. "Website functionality: \n"
+		. "		" . $functionality . "\n\n\n"
+		. "Existing website improvements: \n"
+		. "		" . $existing . "\n\n\n"
 		. "Customer's details: " . "\n"
 		. "		" . $name . "\n"
 		. "		" . $email . "\n"
@@ -49,7 +46,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant Website for Your Business</title>
+	<title>Elegant Websites for Your Business</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -68,13 +65,13 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Websites for Your Business</a>
 
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About</a></li>
-				<li><a href="order.php" style="color: grey;">Order</a></li>
+				<li><a href="order.php" style="color: grey;">Enquiry</a></li>
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>

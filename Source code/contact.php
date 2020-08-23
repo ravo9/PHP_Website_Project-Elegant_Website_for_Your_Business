@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant and cheap websites for business</title>
+	<title>Elegant Websites for Your Business</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -21,13 +21,13 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Websites for Your Business</a>
 
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About</a></li>
-				<li><a href="order.php">Order</a></li>
+				<li><a href="order.php">Enquiry</a></li>
 				<li><a href="contact.php" style="color: grey;">Contact</a></li>
 			</ul>
 		</div>
@@ -38,7 +38,7 @@
 		<div class="row">
 				<div class="col-md-8">
 
-					Phone: <span class="badge badge-warning badge-pill" style="display: block; float: right; font-size: 1rem; letter-spacing: 2px;">07497173091</span>
+					Phone: <span class="badge badge-warning badge-pill" style="display: block; float: right; font-size: 1rem; letter-spacing: 2px;">+44/0 7733177680</span>
 					<br/><br/>
 					E-mail address: <span class="badge badge-warning badge-pill" style="display: block; float: right; font-size: 1rem; letter-spacing: 2px;">elegantwebsitesforyou@gmail.com</span>
 					<br/><br/>

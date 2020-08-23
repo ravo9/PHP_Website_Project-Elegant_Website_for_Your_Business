@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant and cheap websites for business</title>
+  <title>Elegant Websites for Your Business</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -21,13 +21,13 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Websites for Your Business</a>
 
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php" style="color: grey;">Home</a></li>
 				<li><a href="about.php">About</a></li>
-				<li><a href="order.php">Order</a></li>
+				<li><a href="order.php">Enquiry</a></li>
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
@@ -62,18 +62,29 @@
 				<div class="col-md-8">
 					<span style="font-size:1.2rem">How does it work?</span>
 					<br/><br/>
-					1. Specify what design and functional features you expect.
-					<br/>
-					Don't be worried if you don't have any idea - I'll prepare the layout project for you <br/><strong> free of charge</strong>.
-					<br/>
-					Simply - if you don't like it - you don't pay anything!
+
+					<strong>Entirely new website</strong>
 					<br/><br/>
-					2. If you like the project, I will implement the fully-working website, customized for your purposes!
+					1. Make an enquiry. Specify what is the purpose of your website, desired design character (e.g. serious, casual, prestigious). Tell me more about functionality you need (e.g. login system, e-commerce, appointment booking).
 					<br/><br/>
-					3. If you like the final effect, the website will be published!
+					2. I will reply as quickly as possible - describing my offer proposition, vision, and potential price.
 					<br/><br/>
+					3. If you like my vision, I will prepare a project for your website - <strong>free of charge</strong>.
+					<br/><br/>
+					4. If you like the project, I will implement the fully-working website, customized for your purposes!
+					<br/><br/>
+
+					<strong>Existing website</strong>
+					<br/><br/>
+					1. Make an enquiry. Specify what changes do you need for your website in terms of its design or functionality.
+					<br/><br/>
+					2. I will reply as quickly as possible, describing how I could maintain/ update your website.
+					<br/><br/>
+					3. If you like my vision, I will implement desired changes within your already existing website.
+					<br/><br/>
+
 					<div class="text-center">
-						<a class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; border-radius: 8px;" href="order.php">Start the Process Now</a>
+						<a class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; border-radius: 8px;" href="order.php">Make an enquiry</a>
 					</div>
 				</div>
 				<div class="col-md-4 text-center">

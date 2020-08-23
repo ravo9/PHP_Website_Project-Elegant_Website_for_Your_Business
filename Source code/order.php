@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>Elegant Website for Your Business</title>
+	<title>Elegant Websites for Your Business</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -21,13 +21,13 @@
 <body>
 
 	<div id="logo" class="container">
-		<a href="index.php" class="links_no_decoration">Elegant Website for Your Business</a>
+		<a href="index.php" class="links_no_decoration">Elegant Websites for Your Business</a>
 
 		<div id="nav_bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About</a></li>
-				<li><a href="order.php" style="color: grey;">Order</a></li>
+				<li><a href="order.php" style="color: grey;">Enquiry</a></li>
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
@@ -38,10 +38,16 @@
         <form action="order_complete.php" name="form" method="post">
 	    <div class="row">
 	        <div class="col-md-8">
+								<div class="mb-4 enquiry-header-type">1. Entirely New Website</div>
 						    <fieldset class="form-group">
-							    <legend class="mb-3">1. What kind of website do you need?</legend>
+										<legend class="mb-3 enquiry-legend">Please describe briefly what is the purpose of your website (e.g. type of your business or service).</legend>
+										<textarea class="form-control" name="purpose" rows="2"></textarea>
+										<div style="height: 23px;"></div>
+							  <script>
+								/*
+								<legend class="mb-3">1. What kind of website do you need?</legend>
 								    <label for="type">
-								    <strong>Static Website</strong> displays media, images, text, information and may contain many sub-pages with a proper navigation.
+								    Please describe briefly what is the purpose of your website (e.g. type of your business or service).
 								    <div style="height: 18px"></div>
 								    <strong>Dynamic Website</strong> is much more interactive. This type may contain elements like login system, user registration, online Ordering and Booking Systems connected to internal or external database.
 								    </label>
@@ -65,42 +71,61 @@
                                 Other (please specify): <input class="form-control mt-2" type="text" name="other_dynamic_elements" />
                                 </div>
 							    <div style="height: 30px;"></div>
+									*/
+								</script>
 						    </fieldset>
 
 						    <fieldset class="form-group">
-							    <legend class="mb-3">2. Please describe briefly what should the website be about?</legend>
-                                <textarea class="form-control" name="desc" rows="2"></textarea>
-							    <div style="height: 23px;"></div>
+							    	<legend class="mb-3 enquiry-legend">Please tell me if you have any particular form of the website on your mind. If you don't - no worries. I will come up with my proposition.</legend>
+                		<textarea class="form-control" name="form" rows="2"></textarea>
+							    	<div style="height: 23px;"></div>
 						    </fieldset>
 
-                            <fieldset class="form-group">
-							    <legend class="mb-3">3. Would you like to specify some design or functional features?<br/></legend>
-                                           Are there any colours you would like to implement or emphasize?<br/>
-                                           Maybe you would like to specify the layout model, e.g:<br/>
-                                           <ul>
-                                               <li>blog-style,</li>
-                                               <li>simple one-page style (this website),</li>
-                                               <li>casual main-page with sub-pages acccessible through navigation,</li>
-                                               <li>your own vision.</li>
-                                          </ul>
-                                          <input type="text" class="form-control" name="spec" /></br>
-                                           If you don't have your own idea - <strong>don't be worried</strong>. I will prepare the best-fitting website's project we can for you!
-							    <div style="height: 23px;"></div>
+								<fieldset class="form-group">
+							    	<legend class="mb-3 enquiry-legend">Use a few words that best describe a character and style that you would like your website to have (e.g. serious, casual, prestigious).</legend>
+                		<textarea class="form-control" name="style" rows="2"></textarea>
+							    	<div style="height: 23px;"></div>
 						    </fieldset>
 
-                </div>
+								<fieldset class="form-group">
+									 <legend class="mb-3 enquiry-legend">Tell me more about functionality that your website needs (e.g. login system, e-commerce/ online shop, appointment booking).</legend>
+									 <textarea class="form-control" name="functionality" rows="2"></textarea>
+									 <div style="height: 23px;"></div>
+							 </fieldset>
+
+							 <fieldset class="form-group text-center">
+									 <legend class="mb-4  enquiry-legend">Please leave a contact to you:</legend>
+											 <input class="d-block mb-4 text-center" style="margin-left:auto; margin-right:auto" type="textarea" name="name" placeholder="First and last name">
+											 <input class="d-block mb-4 text-center" style="margin-left:auto; margin-right:auto" type="textarea" name="email" placeholder="E-mail address">
+											 <input class="d-block mb-3 text-center" style="margin-left:auto; margin-right:auto" type="textarea" name="phone" placeholder="Phone number">
+									 <div style="height: 10px;"></div>
+								 </fieldset>
+
+							 <fieldset class="text-center">
+	 						 		<input type="submit" name="submit" class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; padding-bottom: 7px; border-radius: 8px;" value="Send the enquiry" />
+	 						 </fieldset>
+
+            </div>
             <div class="col-md-4 text-center">
-			    <img class="img-thumbnail" src="img/c1.jpg">
-		    </div>
-        </div>
-        <div class="row mt-2">
+						    <img class="img-thumbnail" src="img/c1.jpg">
+								<div style="height: 80px;"></div>
+								<div class="btn btn-warning" style="padding-top: 15px; padding-bottom: 15px; line-height: 1.5; border-radius: 10px;">
+									Any questions?<br/>
+									Contact me:<br/>
+									+44/0 7733177680<br/>
+									<span style="font-size: 0.8rem;">elegantwebsitesforyou@gmail.com</span>
+								</div>
+		    		</div>
+					</div>
+
+        <script>/*<div class="row mt-2">
                 <div class="col-md-4 text-center">
                      <img class="img-thumbnail" src="img/c3.jpg">
 					<div style="height: 30px;"></div>
 					<div class="btn btn-warning" style="position: relative; top: 15px; left: 780px; width: 260px; padding-top: 15px; padding-bottom: 15px; line-height: 1.5; border-radius: 10px;">
 						Any questions?<br/>
 						Contact me:<br/>
-						07497173091<br/>
+					  +44/0 7733177680<br/>
 						<span style="font-size: 0.8rem;">elegantwebsitesforyou@gmail.com</span>
 					</div>
 				</div>
@@ -127,11 +152,46 @@
 						    </fieldset>
 				    </div>
 			    </div>
+					*/</script>
             </form>
 	    </div>
     </div>
 
-	<div id="footer">
+
+		<div id="introduction">
+	    <div class="container">
+        <form action="order_complete.php" name="form" method="post">
+				<div class="row">
+					 <div class="col-md-8">
+								 <div class="mb-4 enquiry-header-type">2. Existing Website</div>
+								 <fieldset class="form-group">
+										 <legend class="mb-3 enquiry-legend">Please describe briefly changes (in terms of design or functionality) that you would like to implement in your already existing website.</legend>
+										 <textarea class="form-control" name="existing" rows="4"></textarea>
+										 <div style="height: 23px;"></div>
+								 </fieldset>
+
+								<fieldset class="form-group text-center">
+										<legend class="mb-4  enquiry-legend">Please leave a contact to you:</legend>
+											 <input class="d-block mb-4 text-center" style="margin-left:auto; margin-right:auto" type="textarea" name="name" placeholder="First and last name">
+											 <input class="d-block mb-4 text-center" style="margin-left:auto; margin-right:auto" type="textarea" name="email" placeholder="E-mail address">
+											 <input class="d-block mb-3 text-center" style="margin-left:auto; margin-right:auto" type="textarea" name="phone" placeholder="Phone number">
+										<div style="height: 10px;"></div>
+									</fieldset>
+
+								<fieldset class="text-center">
+									 <input type="submit" name="submit" class="btn btn-success" style="width: 280px; height: 35px; padding-top: 7px; padding-bottom: 7px; border-radius: 8px;" value="Send the enquiry" />
+								</fieldset>
+
+							</div>
+							<div class="col-md-4 text-center">
+					 <img class="img-thumbnail" src="img/c3.jpg">
+				 </div>
+        </div>
+        </form>
+	    </div>
+    </div>
+
+	<div id="footer" class="footer-reversed-colors">
 		<div class="container">
 			All rights reserved 2020 &copy Elegant Websites for Your Business - Rafal Ozog Web Development, London
 		</div>
